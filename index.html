@@ -15,7 +15,9 @@
 <container class="container">
     <div class="grid-container">
         <div class="grid-item left">
-            <!-- <div class="block"></div> -->
+            <div class="side-bar">
+                <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png">
+            </div>
         </div>
         <div class="grid-item right">
             <div class="hero"> This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.
@@ -38,7 +40,7 @@
                         <label for="phone_number">PHONE NUMBER</label>
                         <input type="tel" name="phone_number" id="phone_number">
                         <label for="confirm_password">CONFIRM PASSWORD</label>
-                        <input type="password" name="confirm_password" id="confirm_password">
+                        <input type="password" name="confirm_password" id="confirm_password" required placeholder=" " pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}">
                     </div>
                     </fieldset>
                     <button class="button">Create Account</button>
